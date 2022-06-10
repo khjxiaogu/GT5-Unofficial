@@ -22,10 +22,11 @@ repositories {
         }
     }
     maven {
-        url "https://cursemaven.com"
+        url "https://www.cursemaven.com"
     }
     maven {
         name = "jitpack.io"
         url = "https://jitpack.io"
     }
+	mavenCentral()
 }
